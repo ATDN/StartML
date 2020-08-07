@@ -1,0 +1,1 @@
+print("{:.3f}".format(sum([(i+1)/(2*i+1)*(-1)**(i) for i in range(int(input()))])))
